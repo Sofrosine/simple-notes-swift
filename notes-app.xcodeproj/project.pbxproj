@@ -9,23 +9,43 @@
 /* Begin PBXBuildFile section */
 		E5954567285C61E1000943D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5954566285C61E1000943D3 /* AppDelegate.swift */; };
 		E5954569285C61E1000943D3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5954568285C61E1000943D3 /* SceneDelegate.swift */; };
-		E595456B285C61E1000943D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E595456A285C61E1000943D3 /* ViewController.swift */; };
+		E595456B285C61E1000943D3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E595456A285C61E1000943D3 /* HomeViewController.swift */; };
 		E595456E285C61E1000943D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E595456C285C61E1000943D3 /* Main.storyboard */; };
 		E5954571285C61E1000943D3 /* notes_app.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E595456F285C61E1000943D3 /* notes_app.xcdatamodeld */; };
 		E5954573285C61E4000943D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5954572285C61E4000943D3 /* Assets.xcassets */; };
 		E5954576285C61E4000943D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5954574285C61E4000943D3 /* LaunchScreen.storyboard */; };
+		E5954586285C7610000943D3 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5954585285C7610000943D3 /* HomeView.swift */; };
+		E5954589285C8176000943D3 /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5954588285C8176000943D3 /* UITextField+Extension.swift */; };
+		E595458C285C880F000943D3 /* Custom+UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E595458B285C880F000943D3 /* Custom+UITextField.swift */; };
+		E595458E285C8AAC000943D3 /* UITextView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E595458D285C8AAC000943D3 /* UITextView+Extension.swift */; };
+		E5954590285C9427000943D3 /* NotesTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E595458F285C9427000943D3 /* NotesTextView.swift */; };
+		E5954593285CA4CC000943D3 /* Note+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5954591285CA4CC000943D3 /* Note+CoreDataClass.swift */; };
+		E5954596285CA7BA000943D3 /* DetailViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5954595285CA7BA000943D3 /* DetailViewController+Extension.swift */; };
+		E5954599285CB385000943D3 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5954598285CB385000943D3 /* DetailViewController.swift */; };
+		E595459B285CB3A8000943D3 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E595459A285CB3A8000943D3 /* DetailView.swift */; };
+		E595459D285CD767000943D3 /* CellNoteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E595459C285CD767000943D3 /* CellNoteTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E5954563285C61E1000943D3 /* notes-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "notes-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5954566285C61E1000943D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E5954568285C61E1000943D3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E595456A285C61E1000943D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E595456A285C61E1000943D3 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		E595456D285C61E1000943D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E5954570285C61E1000943D3 /* notes_app.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = notes_app.xcdatamodel; sourceTree = "<group>"; };
 		E5954572285C61E4000943D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5954575285C61E4000943D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E5954577285C61E4000943D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5954585285C7610000943D3 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		E5954588285C8176000943D3 /* UITextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
+		E595458B285C880F000943D3 /* Custom+UITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Custom+UITextField.swift"; sourceTree = "<group>"; };
+		E595458D285C8AAC000943D3 /* UITextView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextView+Extension.swift"; sourceTree = "<group>"; };
+		E595458F285C9427000943D3 /* NotesTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesTextView.swift; sourceTree = "<group>"; };
+		E5954591285CA4CC000943D3 /* Note+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Note+CoreDataClass.swift"; sourceTree = "<group>"; };
+		E5954595285CA7BA000943D3 /* DetailViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DetailViewController+Extension.swift"; sourceTree = "<group>"; };
+		E5954598285CB385000943D3 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		E595459A285CB3A8000943D3 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		E595459C285CD767000943D3 /* CellNoteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellNoteTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +78,13 @@
 		E5954565285C61E1000943D3 /* notes-app */ = {
 			isa = PBXGroup;
 			children = (
+				E595458A285C87F4000943D3 /* CustomView */,
+				E5954587285C8153000943D3 /* Extensions */,
+				E595457D285C6FD6000943D3 /* Models */,
+				E595457E285C6FDD000943D3 /* ViewModels */,
+				E595457F285C6FE2000943D3 /* ViewControllers */,
 				E5954566285C61E1000943D3 /* AppDelegate.swift */,
 				E5954568285C61E1000943D3 /* SceneDelegate.swift */,
-				E595456A285C61E1000943D3 /* ViewController.swift */,
 				E595456C285C61E1000943D3 /* Main.storyboard */,
 				E5954572285C61E4000943D3 /* Assets.xcassets */,
 				E5954574285C61E4000943D3 /* LaunchScreen.storyboard */,
@@ -68,6 +92,68 @@
 				E595456F285C61E1000943D3 /* notes_app.xcdatamodeld */,
 			);
 			path = "notes-app";
+			sourceTree = "<group>";
+		};
+		E595457D285C6FD6000943D3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E5954591285CA4CC000943D3 /* Note+CoreDataClass.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E595457E285C6FDD000943D3 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		E595457F285C6FE2000943D3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E5954597285CB36D000943D3 /* Detail */,
+				E5954584285C7516000943D3 /* Home */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E5954584285C7516000943D3 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				E595456A285C61E1000943D3 /* HomeViewController.swift */,
+				E5954585285C7610000943D3 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		E5954587285C8153000943D3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E5954588285C8176000943D3 /* UITextField+Extension.swift */,
+				E595458D285C8AAC000943D3 /* UITextView+Extension.swift */,
+				E5954595285CA7BA000943D3 /* DetailViewController+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E595458A285C87F4000943D3 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				E595458B285C880F000943D3 /* Custom+UITextField.swift */,
+				E595458F285C9427000943D3 /* NotesTextView.swift */,
+				E595459C285CD767000943D3 /* CellNoteTableViewCell.swift */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		E5954597285CB36D000943D3 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				E5954598285CB385000943D3 /* DetailViewController.swift */,
+				E595459A285CB3A8000943D3 /* DetailView.swift */,
+			);
+			path = Detail;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,9 +227,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E595456B285C61E1000943D3 /* ViewController.swift in Sources */,
+				E595458C285C880F000943D3 /* Custom+UITextField.swift in Sources */,
+				E595456B285C61E1000943D3 /* HomeViewController.swift in Sources */,
 				E5954567285C61E1000943D3 /* AppDelegate.swift in Sources */,
+				E595459D285CD767000943D3 /* CellNoteTableViewCell.swift in Sources */,
+				E5954599285CB385000943D3 /* DetailViewController.swift in Sources */,
+				E5954589285C8176000943D3 /* UITextField+Extension.swift in Sources */,
+				E5954590285C9427000943D3 /* NotesTextView.swift in Sources */,
 				E5954569285C61E1000943D3 /* SceneDelegate.swift in Sources */,
+				E595459B285CB3A8000943D3 /* DetailView.swift in Sources */,
+				E595458E285C8AAC000943D3 /* UITextView+Extension.swift in Sources */,
+				E5954593285CA4CC000943D3 /* Note+CoreDataClass.swift in Sources */,
+				E5954586285C7610000943D3 /* HomeView.swift in Sources */,
+				E5954596285CA7BA000943D3 /* DetailViewController+Extension.swift in Sources */,
 				E5954571285C61E1000943D3 /* notes_app.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,14 +387,14 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = M95DF45X5H;
+				DEVELOPMENT_TEAM = Q3YD2289UJ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "notes-app/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -319,14 +415,14 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = M95DF45X5H;
+				DEVELOPMENT_TEAM = Q3YD2289UJ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "notes-app/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
